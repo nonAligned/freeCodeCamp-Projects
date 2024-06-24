@@ -1,0 +1,135 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+      <label id="name-label" for="name">Name
+        <input id="name" type="text" required placeholder="Enter your name">
+      </label>
+
+      <label id="email-label" for="email">Email
+        <input id="email" type="email" required placeholder="Enter your email">
+      </label>
+
+      <label id="number-label" for="number">Age
+        <input id="number" type="number" min="18" max="100" required placeholder="Enter your age">
+      </label>
+
+      <label id="dropdown-label" for="dropdown">Which option best describes your current role?
+        <select id="dropdown">
+          <option value="">Select current role</option>
+          <option value="student">Student</option>
+          <option value="full-time">Full time job</option>
+        </select>
+      </label>
+
+      <label id="recommend-label">Would you recommend freeCodeCamp to a friend?
+        <label for="recommend-1">
+          <input type="radio" name="recommend" id="recommend-1" value="definitely"> Definitely
+        </label>
+        <label for="recommend-2">
+          <input type="radio" name="recommend" id="recommend-2" value="maybe"> Maybe
+        </label>
+      </label>
+
+      <label id="improvement-label">What to improve?
+        <label for="checkbox-1">
+          <input id="checkbox-1" type="checkbox" value="front-end"> Front-end
+        </label>
+        <label for="checkbox-2">
+          <input type="checkbox" value="back-end"> Back-end
+        </label>
+        <label for="checkbox-2">
+          <input type="checkbox" value="challenges"> Challenges
+        </label>
+      </label>
+
+      <label for="comment" id="comment-label">Additional comment
+        <textarea id="comment"></textarea>
+      </label>
+
+      <button id="submit" type="submit">Submit</button>
+    </form>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  font-family: sans-serif;
+  color: #8d8dd2;
+  margin: 0;
+  padding: 2rem;
+}
+
+h1, p {
+  text-align: center;
+  margin: 0;
+}
+
+p {
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+form {
+  background-color: #b1b1e0;
+  padding: 2rem;
+  border-radius: 1rem;
+  color: #000;
+  font-size: 1.1rem;
+  box-shadow: 2px 2px 18px rgba(0,0,0,0.25);
+}
+
+form>label {
+  margin-bottom: 1rem;
+}
+
+input, textarea, select {
+  width: 100%;
+  border: none;
+  height: 2em;
+  border-radius: 0.25rem;
+  padding-left: 0.5rem;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  width: unset;
+  vertical-align: middle;
+}
+
+label {
+  display: inline-block;
+  width: 100%;
+}
+
+textarea {
+  min-height: 6rem;
+  border-radius: 0.25rem;
+}
+
+button {
+  width: 100%;
+  border: none;
+  font-size: 1.5rem;
+  background-color: #8d8dd2;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+button:hover {
+  background-color: #E0E0B1;
+}
+
+** end of undefined **
+
