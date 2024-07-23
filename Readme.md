@@ -11,3 +11,7 @@ Completed May 29th, 2023
 
 ## JavaScript Algorithms and Data Structures
 Started: June 22nd, 2024
+
+Completed July 23rd, 2024
+
+[View Certificate](https://www.freecodecamp.org/certification/momcilo-savic/javascript-algorithms-and-data-structures-v8)
